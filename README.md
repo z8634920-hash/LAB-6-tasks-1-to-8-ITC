@@ -1,1 +1,1 @@
-# LAB-6-tasks-1-to-8-ITC
+# LAB-7-tasks-1-to-8-ITC
