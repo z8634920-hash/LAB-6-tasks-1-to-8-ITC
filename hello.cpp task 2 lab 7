@@ -1,0 +1,46 @@
+
+/*
+Name: Muhammad Zoraiz Sultan
+Roll No: 0122
+Task 02: Multiplication Table
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int number, limit, counter, result, sum;
+
+    sum = 0;       // Initialize accumulator
+    counter = 1;   // Initialize counter
+
+    cout << "Enter a number: ";
+    cin >> number;
+
+    cout << "Enter the limit: ";
+    cin >> limit;
+
+    if (limit <= 0)
+    {
+        cout << "Invalid limit" << endl;
+    }
+    else
+    {
+        while (counter <= limit)
+        {
+            result = number * counter;
+
+            cout << number << " x " << counter
+                 << " = " << result << endl;
+
+            sum = sum + result;  // Accumulator
+
+            counter++;           // Counter increment
+        }
+
+        cout << "Sum of all results: " << sum << endl;
+    }
+
+    return 0;
+}
