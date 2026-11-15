@@ -1,7 +1,7 @@
 task 1:
 
-// Name: Your Name
-// Roll No: Your Roll Number
+// Name: Muhammad Zoraiz Sultan
+// Roll No: 0122
 
 #include <iostream>
 using namespace std;
